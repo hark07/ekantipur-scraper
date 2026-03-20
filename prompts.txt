@@ -1,5 +1,13 @@
-Prompt 1: Extract top 5 entertainment articles from class ".article-item", with title, image, category, author.
-
-Prompt 2: Extract Cartoon of the Day from section "व्यंग्यचित्र", with title, image, and author.
-
-Prompt 3: Handle missing elements safely using try/except in Playwright.
+1. How do I select the top 5 entertainment articles on https://ekantipur.com/entertainment using Playwright in Python?
+2. How do I extract the title from each article card safely, handling missing elements?
+3. How do I extract the image URL from each article card?
+4. How do I get the category/section label from each article card, defaulting to "मनोरञ्जन" if missing?
+5. How do I extract the author name for each article, using null if not present?
+6. How do I locate and scrape the "Cartoon of the Day" section on the homepage?
+7. How do I extract the cartoon title, image URL, and cartoonist name safely?
+8. How do I wait for dynamic content to load properly before scraping elements?
+9. How do I handle missing elements without breaking the script using try/except or conditional checks?
+10. How do I save the scraped data into a JSON file with proper Nepali encoding (ensure_ascii=False)?
+11. How do I merge new entertainment articles into existing output.json while updating the cartoon of the day?
+12. How do I debug selectors using page.query_selector_all, print HTML, or page.pause() in Playwright?
+13. How do I write meaningful comments in the scraper for readability and maintainability?
