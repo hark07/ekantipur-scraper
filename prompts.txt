@@ -1,0 +1,5 @@
+Prompt 1: Extract top 5 entertainment articles from class ".article-item", with title, image, category, author.
+
+Prompt 2: Extract Cartoon of the Day from section "व्यंग्यचित्र", with title, image, and author.
+
+Prompt 3: Handle missing elements safely using try/except in Playwright.
